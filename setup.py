@@ -6,8 +6,7 @@ version = '1.0'
 setup(name='js.bootstrapdatepicker',
       version=version,
       description="bootstrap date picker fanstatic integration",
-      long_description="""\
-""",
+      long_description=open('README.rst').read(),
       classifiers=[],
       keywords='fanstatic bootstrap date widget',
       author='Nathan Van Gheem',
