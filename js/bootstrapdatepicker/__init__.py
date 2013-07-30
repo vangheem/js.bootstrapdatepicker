@@ -8,6 +8,8 @@ library = Library('bootstrapdatepicker', 'resources')
 bootstrapdatepicker_css = Resource(
     library, 'bootstrap-datepicker.css',
     depends=[bootstrap_css],
+    minified='bootstrap-datepicker.min.css',
+    minifier='cssmin',
 )
 
 bootstrapdatepicker_js = Resource(
